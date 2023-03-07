@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.sidebar{
+    background-color: rgb(212, 206, 206);
+    width: 300px;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+}
+.main{
+   /*  background-color: yellow; */
+   width: 90vw;
+
+}
+.sidebar nav{
+    padding: 40px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    display: flex;
+}
+.devpic img{
+    height: 58vh;
+}
+.info{
+    /* background-color: rgb(84, 182, 18); */
+    height: 58vh;
+    width: 75vw;
+    margin: 140px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+.hello{
+    font-size: 60px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+.about{
+    font-size: 35px;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+    flex-direction: column;
+
+}
+.moreabout{
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.buttons{
+    margin-top: 33px;
+}
+.buttons button{
+  
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin-inline: 0 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.contactform{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0  30px;
+    padding-top : 140px;
+
+}
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
+.contactform form div{
+    padding: 10px;
+}
+#emailHelp{
+    font-size: 10px;
+    color: midnightblue;
+    
+}
+.emailc{
+    display: flex;
+    flex-direction: column;
+}
+.phonec{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    margin-bottom: 0;
+}
+.emailc input{
+    width: 26vw;
+    border-radius: 5px ;
+    margin: 6px 0;
+    padding: 3px;
+}
+.phonec input{
+    width: 26vw;
+    border-radius: 5px ;
+    margin: 6px 0;
+    padding: 3px;
+}
+.checkboxi{
+    pad: 14px;
+}
+.checkboxi label{
+    font-size: 14px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin-inline: 0 3px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.btn-sm{
+font-size: 15px;
+
+}
+.blogitem{
+    margin: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.blogitem p{
+    font-family: 'Source Code Pro', monospace;
+   
+
+}
+.blogcontainer h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 25px;
+}
